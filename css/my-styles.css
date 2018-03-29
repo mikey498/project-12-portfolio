@@ -1,0 +1,140 @@
+
+/* *****************************************************************************
+N A V
+*******************************************************************************/
+
+
+
+
+/* *****************************************************************************
+H E R O   S e c t i o n
+*******************************************************************************/
+
+.hero {
+  padding: 80px 0px;
+
+}
+
+
+.row h1 {
+
+  font-size: 55px;
+  font-weight: lighter;
+}
+
+.row p {
+
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+/* *****************************************************************************
+M A I N     P O R T F O L I O        S e c t i o n
+*******************************************************************************/
+
+.main {
+  padding: 80px 0px;
+}
+
+.main img {
+  border-radius: 3px;
+  border-width: thin;
+  border-color: red;
+  margin-top: 40px;
+}
+
+.text-center {
+  margin-top: 30px;
+}
+
+
+
+/* *****************************************************************************
+about and skills Section      S e c t i o n
+*******************************************************************************/
+
+.skills {
+    padding: 80px 0px;
+}
+
+
+
+
+
+/* *****************************************************************************
+F o o t e r        S e c t i o n
+*******************************************************************************/
+
+
+
+footer {
+  height: 300px;
+  background-color: rgb(207, 207, 209);
+}
+
+footer h4 {
+  color: white;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.contact-info {
+  color: black;
+}
+
+.social-media {
+  color: black;
+}
+
+.footer-hr {
+  height: .2px;
+  background-color:white;
+}
+
+footer a {
+  margin-left: 10px;
+
+}
+
+/* *****************************************************************************
+Media queries       S e c t i o n
+*******************************************************************************/
+
+
+
+@media (min-width: 641px) {
+
+  .top-bar {
+    background-color: #222;
+    height: 60px;
+    padding: 0;
+  }
+
+.top-bar .menu-desktop {
+  line-height: 60px;
+}
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #222;
+  font-size: 22px;
+  font-weight: 200;
+  color: white;
+}
+
+.menu > li > a:hover {
+  background-color: grey;
+
+}
+
+
+}
